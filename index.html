@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI-Driven Journaling</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>AI-Driven Journaling</h1>
+
+    <div class="controls">
+        <input type="date" id="dateEntry">
+    </div>
+
+    <textarea id="journalEntry" placeholder="Write your journal entry here..."></textarea>
+    <div class="button-container">
+        <button class="btn" onclick="saveEntry()">Save Entry</button>
+    </div>
+ 
+    <div class="textarea-container">
+        <div id="aiResponseContainer">
+            <textarea id="aiResponse" placeholder="AI Response..." readonly></textarea>
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
